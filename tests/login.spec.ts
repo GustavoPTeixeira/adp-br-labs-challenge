@@ -15,7 +15,9 @@ test.describe('Login Page Tests', ()=>{
         const loginPage = new LoginPage(page);
         await loginPage.login(userLogin!, userPassword!)
         await expect(page).toHaveURL(/.*dashboard/);
-        await expect(page.getByText('Dashboard')).toBeVisible();
+        const dashboardMessage = page.locator('.oxd-text--h6');
+        await expect(dashboardMessage).toBeVisible();
+        await expect(dashboardMessage).toHaveText('Dashboard');
     })
 
     test('Unsuccessful login with invalid credentials', async ({ page }) =>{

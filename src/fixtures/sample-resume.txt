@@ -1,0 +1,24 @@
+CURRICULUM VITAE
+
+Name: João Silva Santos
+Email: joao.santos@example.com
+Phone: +55 11 98765-4321
+
+PROFESSIONAL SUMMARY
+Quality Assurance Engineer with experience in test automation using Playwright, 
+Selenium, and other modern testing frameworks.
+
+SKILLS
+- Test Automation (Playwright, Selenium)
+- Programming Languages (TypeScript, JavaScript, Python)
+- CI/CD (GitHub Actions, Jenkins)
+- Agile Methodologies
+
+EXPERIENCE
+QA Automation Engineer - Tech Company (2022-Present)
+- Developed automated test suites
+- Implemented CI/CD pipelines
+- Improved test coverage by 40%
+
+EDUCATION
+Bachelor's Degree in Computer Science - University (2018-2022)
